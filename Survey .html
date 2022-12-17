@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta  name = "viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        
+        
+        <form id="survey-form">
+            <fieldset>
+                <h1>Customer Information</h1>
+            </fieldset>
+            <fieldset>
+                <h3>Customer Name</h3>
+                <input name="firstname" id="firstname" class="left" type="text">
+                <input name="firstname" id="firstname" class="right" type="text">
+                <br>
+                
+                <p class="left descriptor">First Name</p>
+                <p class="right descriptor">Last Name</p>
+                <br>
+                <h3 class="left">Address</h3>
+                
+                <input type="text" name="address" class="lg">
+                <p class="descriptor">Street Address</p>
+                <input type="text" name="address2" class="lg">
+                <p class="descriptor">Street Address Line2</p>
+                <input name="city" id="city" class="left" type="text">
+                <input name="state/province" id="state/province" class="right" type="text"></input>
+                <br>
+                
+                <p class="left descriptor">City</p>
+                <p class="right descriptor">State/ Province</p>
+                
+                <input name="Postal" id="postal" class="left" type="text"></input>
+                <input name="country" id="country" class="right" type="text"></input>
+                <br>
+                
+                <p class="left descriptor">Postal/ ZipCode</p>
+                <p class="right descriptor">Country</p>
+                <br>
+                
+                
+                <h3 class="left sub">Contact Number</h3>
+                
+                <br>
+                <input type="text" name="address" class="left" placeholder="000-000-000">
+                <br>
+                <h3 class="left sub">Email</h3>
+                
+                
+                <input type="text" name="address" class="left" placeholder="example@gmail.com">
+                <br>
+            </fieldset>
+            <fieldset>
+                <h3>How long have you been using this product and why?</h3>
+                <textarea id="product" rows="10"></textarea>
+                <h3>Write your comments and suggestions about our products in comparison with other competitors:</h3>
+                <textarea id="comments" rows="10"></textarea>
+                <h3>Are you satisfied with our product performance? share your opinions:</h3>
+                <textarea id="opinions" rows="10"></textarea>
+                <h3>Tell us something about your shopping experiences to buy our product:</h3>
+                <textarea id="shopping" rows="10"></textarea>
+                <h3 style="text-align:center;margin-top:40px">Thank you for completing this survey!</h3>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Submit</button>
+            </fieldset>
+
+        </form>
+    </div>
+    </body>
+</html>

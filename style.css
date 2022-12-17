@@ -1,0 +1,52 @@
+form{
+    width:75%;
+    margin:auto;
+}
+.left{
+    float:left;
+    width:45%;
+    
+}
+input[type="text"],select{
+    height:25px;
+   
+    border-radius: 5px ;
+
+
+}
+.right{
+    float:right;
+    width:45%;
+    
+
+}
+.sub-label {
+    padding:11px;
+    position:relative;
+    margin-top: 20px;
+}
+.descriptor{
+    
+    margin-top: 1px;
+    padding-top: 2px;
+}
+.lg{
+    width:98%;
+    margin:auto;
+}
+
+.sub{
+    width:75%
+}
+textarea{
+    width:98%;
+    border-radius: 5px ;
+}
+button{
+    width:20%;
+    height:35px;
+    
+    margin:25px 400px;
+    background-color: green;
+    color:white;
+}
